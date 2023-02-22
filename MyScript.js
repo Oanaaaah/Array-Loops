@@ -67,10 +67,10 @@ function myFourthExercice(){
 
     my_string = document.getElementById("text_input_4").value;
 
-var vowelsCunt = 0;
+var vowelsCount = 0;
 for (var i=0; i < my_string.length;i++) {
-    if(vowels_array.includes(my_string[i].toLowerCase())) {vowelsCunt +=1;}
+    if(vowels_array.includes(my_string[i].toLowerCase())) {vowelsCount +=1;}
 }
 
-document.getElementById("results_4").innerText = vowelsCunt;
+document.getElementById("results_4").innerText = vowelsCount;
 }
